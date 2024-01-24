@@ -1,0 +1,64 @@
+
+/*=======================*/
+/*=======================*/
+/*=========HEADER========*/
+/*=======================*/
+/*=======================*/
+ 
+.container {
+    display: flex-end;
+    background-color: aliceblue;
+}
+
+
+.logo-image {
+    display: flex-start 70px;
+    height: 50px;
+    width: 200px;
+}
+
+.header {
+    background-color: black;
+    padding: 0%;
+    height: 150px;
+    text-align: center;
+}
+
+.ul {
+    font-size: large;
+}
+
+.list li {
+    display: inline;
+    height: 150px;
+    overflow-x: visible;
+    position: relative;
+    padding: 1px;
+    background-color: aliceblue;
+}
+
+/*=======================*/
+/*=======================*/
+/*=========MAIN==========*/
+/*=======================*/
+/*=======================*/
+.main-section {
+    padding: 100px;
+    background-color: rgb(61, 114, 239);
+}
+
+.main-image {
+    height: 200px;
+    position: absolute;
+}
+
+.main-tittle {
+    font-size: 100px;
+}
+
+
+.buttom {
+    border-radius: 5px black;
+    position: absolute;
+    background-color:  blueviolet;
+}
