@@ -214,7 +214,20 @@ h2 {
 /*=======================*/
 
 .footer {
-    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
     width: 100%;
     background-color: black;
+}
+
+.footer1 {
+    width: 50%;
+    background-color: aqua;
+}
+
+.footer2 {
+    justify-content: end;
+    width: 50%;
+    background-color: green;
 }
